@@ -11,5 +11,9 @@ ALL:
 clean:
 	make -C $(KERNEL_PATH) M=$(CURRENT_PATH) clean
 
-
+.PHONY: install uninstall
+install:
+	sudo insmod scull_char.ko
+uninstall:
+	sudo rmmod scull_char
 endif
