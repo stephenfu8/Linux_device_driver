@@ -1,0 +1,10 @@
+tags
+*/tags
+*/.*
+*/*.o
+*/*.ko
+*/*.mod.*
+*/Module*
+*/modules.order
+
+test/*
